@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: Lato;
+  background-color: #abcdd2;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+a#github-repo {
+  color: #231f20;
+  font-size: 3rem;
+  position: absolute;
+  right: 1.25rem;
+  top: 0.5rem;
+}
+
+h1 {
+  margin-block-start: 0.4em;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin: 0.5rem auto 0;
+  padding: 0.5rem;
+}
+
+input {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 0 auto;
+  width: 12rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #e1ecff;
+}
+
+button#check-button {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ff5200;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  margin: 1rem auto 0.5rem;
+}
+
+button#check-button:hover {
+  background-color: #000;
+  color: #ff5200;
+}
+
+/* main output text */
+h2#output-text {
+  display: none;
+  margin: 0.7em auto;
+  font-size: 2rem;
+}
+
+/* privacy notice */
+div#privacy-notice {
+  background-color: rgb(24, 24, 24);
+  color: #e1ecff;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin: 1.5rem auto 0;
+  max-width: 90%;
+  width: 730px;
+}
+
+/* footer */
+.footer {
+  background-color: #ff5200;
+  color: #000;
+  text-align: center;
+  padding: 1.05rem 0 0.85rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer-heading {
+  font-size: 1.4rem;
+  padding: 0 0 1rem 0;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer .list-item-inline {
+  display: inline;
+  padding: 0 0.15rem;
+}
+
+.footer .link {
+  color: #000;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.footer i {
+  font-size: 2.2rem;
+}
